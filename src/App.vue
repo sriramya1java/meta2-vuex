@@ -4,6 +4,7 @@
     <h1>{{ msg }}</h1>
     <user-name></user-name>
     <adding-user></adding-user>
+    <br>
     <dimensions></dimensions>
   </div>
 </template>
