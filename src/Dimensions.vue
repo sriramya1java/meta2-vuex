@@ -3,24 +3,11 @@
         <div class="row">
             <div class="col-4">
                 <ul>
-                    <li v-for="d in dimensions">{{ d}}</li>
+                    <li v-for="d in dimensions">{{ d }}</li>
                 </ul>
             </div>
-            <div class="col-4">
-                <ul>
-                    <li v-for="d in dimensions">{{ d}}</li>
-                </ul>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-4">
-                Sri
-            </div>
-            <div class="col-4">
-                Sri
-            </div>
-            <div class="col-4">
-                Sri
+            <div class="col-8">
+                Header Notes
             </div>
         </div>
     </div>
@@ -39,8 +26,16 @@
     }
 </script>
 <style scoped>
-    ul {
+    .col-4 {
         border: 1px solid;
-        border-width: thin;
+        width: 32%;
+        height: 160px;
+        float: left;
+    }
+    .col-8 {
+        border: 1px solid;
+        width: 32%;
+        height: 160px;
+        float: right;
     }
 </style>
